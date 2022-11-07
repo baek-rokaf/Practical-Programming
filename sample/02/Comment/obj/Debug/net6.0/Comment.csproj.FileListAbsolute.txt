@@ -1,0 +1,15 @@
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/bin/Debug/net6.0/Comment
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/bin/Debug/net6.0/Comment.deps.json
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/bin/Debug/net6.0/Comment.runtimeconfig.json
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/bin/Debug/net6.0/Comment.dll
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/bin/Debug/net6.0/ref/Comment.dll
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/bin/Debug/net6.0/Comment.pdb
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/obj/Debug/net6.0/Comment.csproj.AssemblyReference.cache
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/obj/Debug/net6.0/Comment.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/obj/Debug/net6.0/Comment.AssemblyInfoInputs.cache
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/obj/Debug/net6.0/Comment.AssemblyInfo.cs
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/obj/Debug/net6.0/Comment.csproj.CoreCompileInputs.cache
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/obj/Debug/net6.0/Comment.dll
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/obj/Debug/net6.0/ref/Comment.dll
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/obj/Debug/net6.0/Comment.pdb
+/home/runner/ReasonableNonstopTriggers/sample/02/Comment/obj/Debug/net6.0/Comment.genruntimeconfig.cache
