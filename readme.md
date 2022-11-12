@@ -14,7 +14,6 @@
 - 개체지향(Object-Oriented Programming) 언어
 
 ### 7. C#은 어디서 쓰이나요?
-[ㅁㅇ](../sample/01)
 - 윈도우 애플리케이션
 - 웹 애플리케이션
   - ASP.NET MVC
