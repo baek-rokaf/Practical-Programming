@@ -246,7 +246,69 @@ int main(){
 ```
 ---
 - 절차적 언어는 같은 변수에 값을 업데이트하고 이전 상태에 대한 것은 따로 저장해두지 않음
+---
+
 ### 18. 프로그래밍 패러다임: OOP언어
+---
+- Object-Oriented Programming Language
+  - 직관적이다.
+  - 기능과 자료를 하나의 개체(Object)에 합침
+    - 물체의 개념
+    - 주로 객체라고 불림
+  - 가장 널리 쓰이는 프로그래밍 패러다임
+    - 사람에게 직관적
+    - 복잡한 프로그램의 구조를 잡기 수월함
+---
+- OOP Example - C#
+> Student.cs
+```cs
+namespace CSharpExample
+{
+  public class Student
+  {
+    //상태
+    public string Name { get; private set; }
+    public string ID { get; private set; }
+    public Student(string name string id)
+    {
+      Name = name;
+      ID = id;
+    }
+
+    //기능
+    public bool TryChangeName(string name)
+    {
+     if (Name != name)
+     {
+       Name = name;
+       return true;
+     }
+     return false;
+    }
+  }
+}
+```
+
+Main.cs
+```cs
+namespace CSharpExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Student student = new Student("Pope Kim", "a123456");
+            student.TryChangeName("Babo Kim");
+
+            Console.WriteLine("Student name: {0}\n Student ID: {1}", student.Name, student.ID);
+        }
+    }
+}
+```
+---
+- OOP 는 상태와 기능을 저장
+
+---
 ### 19. 프로그래밍 패러다임: 함수형 언어
 ### 20. C#은 어떤 언어인가
 ### 21. 정리
