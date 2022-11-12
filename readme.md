@@ -215,6 +215,37 @@ int mulResult = 3*4;
 ---
 
 ### 17. 프로그래밍 패러다임: 절차적 언어
+---
+- Procedural Language
+  - 가장 단순한 형태의 언어
+  - 함수를 실행하면 결과가 바로 반환 됌
+  - 그 결과를 저장하기 위해선 별도의 공간이 필요
+  - 기능과 자료저장의 분리
+
+- 절차적 언어 예제 - C
+```C
+#include <stdio.h>
+
+int gSum = 0;
+
+void Accumulate(int num){
+  gSum += num;
+}
+
+int main(){
+  int num = 0;
+
+  printf("Enter a number: ");
+  scanf("%d", &num);
+
+  Accumulate(num);
+
+  printf("Sum after adding %d is %d", num, gSum);
+  return 0;
+}
+```
+---
+- 절차적 언어는 같은 변수에 값을 업데이트하고 이전 상태에 대한 것은 따로 저장해두지 않음
 ### 18. 프로그래밍 패러다임: OOP언어
 ### 19. 프로그래밍 패러다임: 함수형 언어
 ### 20. C#은 어떤 언어인가
