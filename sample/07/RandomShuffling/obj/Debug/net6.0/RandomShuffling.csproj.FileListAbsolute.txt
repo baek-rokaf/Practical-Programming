@@ -1,0 +1,15 @@
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/bin/Debug/net6.0/RandomShuffling
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/bin/Debug/net6.0/RandomShuffling.deps.json
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/bin/Debug/net6.0/RandomShuffling.runtimeconfig.json
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/bin/Debug/net6.0/RandomShuffling.dll
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/bin/Debug/net6.0/ref/RandomShuffling.dll
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/bin/Debug/net6.0/RandomShuffling.pdb
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/obj/Debug/net6.0/RandomShuffling.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/obj/Debug/net6.0/RandomShuffling.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/obj/Debug/net6.0/RandomShuffling.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/obj/Debug/net6.0/RandomShuffling.AssemblyInfo.cs
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/obj/Debug/net6.0/RandomShuffling.csproj.CoreCompileInputs.cache
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/obj/Debug/net6.0/RandomShuffling.dll
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/obj/Debug/net6.0/ref/RandomShuffling.dll
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/obj/Debug/net6.0/RandomShuffling.pdb
+/home/runner/PracticalProgramming/sample/07/RandomShuffling/obj/Debug/net6.0/RandomShuffling.genruntimeconfig.cache

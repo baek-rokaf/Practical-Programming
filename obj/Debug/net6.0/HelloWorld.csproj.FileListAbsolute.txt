@@ -1,0 +1,5 @@
+/home/runner/PracticalProgramming/obj/Debug/net6.0/HelloWorld.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/obj/Debug/net6.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/obj/Debug/net6.0/HelloWorld.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/obj/Debug/net6.0/HelloWorld.AssemblyInfo.cs
+/home/runner/PracticalProgramming/obj/Debug/net6.0/HelloWorld.csproj.CoreCompileInputs.cache

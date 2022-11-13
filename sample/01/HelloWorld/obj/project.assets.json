@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/PracticalProgramming/HelloWorld.csproj",
+      "projectUniqueName": "/home/runner/PracticalProgramming/sample/01/HelloWorld/HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "/home/runner/PracticalProgramming/HelloWorld.csproj",
+      "projectPath": "/home/runner/PracticalProgramming/sample/01/HelloWorld/HelloWorld.csproj",
       "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/PracticalProgramming/obj/",
+      "outputPath": "/home/runner/PracticalProgramming/sample/01/HelloWorld/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/runner/.nuget/NuGet/NuGet.Config"

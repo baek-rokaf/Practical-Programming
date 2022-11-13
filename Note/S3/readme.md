@@ -115,5 +115,52 @@ static void Main(string[] args)
     - 성능이 디버깅 모드보다 매우 빠름
 ---
 ### 27. 여러 값을 출력하기
+```cs
+using System;
+
+namespace DisplayContents
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(30); //int형
+            Console.WriteLine(30.1); //double
+            Console.WriteLine(30.2f);//float
+            Console.Write(true);//bool
+            Console.Write('p');//char
+        }
+    }
+}
+
+```
+---
+- 구문(Statement)
+  1. 한 줄짜리 코드
+     - 주로 코드 끝에 ';'가 있음
+  2. 여러 줄의 코드로 이루어진 블록(block)
+     - 범위(scope)라고 부름
+     - 이 경우 코드를 중괄호({})로 감쌈
+---
+- 주석 (Comment)
+  - 코드 관련된 내용을 메모
+  - 컴파일할 때 무시되는 문장
+```cs
+  // one line comment
+  /*
+  multi line
+  comment
+  */
+```
 ### 28. 코드보기: 출력 코드
+
+[Comment](https://github.com/baek-rokaf/Practical-Programming/blob/main/sample/02/Comment/Program.cs)
+
 ### 29. 상수
+
+- 주석을 지나치게 사용하지 않는 것이 좋은 이유
+  - 주석 관리도 업데이트가 필요함
+  - 주석이 너무 많을 경우에 업데이트 시 불편
+  - 주석이 너무 많으면 가독성을 헤침
+  - 꼭 필요한 내용만 주석으로 남기는 것이 좋다
+  - 주석보다 git 등의 버전 관리 프로그램으로 기록을 남겨두자

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4c/TP9JC9ZYBTJfr7NgQhQ9IDycsUAwgomTzVOivBtxx3CP06npSPv+vw/8v5StoiWp/FawZTx5UW0W7IANqGg==",
+  "dgSpecHash": "ANyCJb63nkp2klP1zNf8EXz1SfEVumgwgp2i5D06CQQFvJpI/creimXfVqB5WXeIumXlVTa2/z/HJSgHJ6YF2g==",
   "success": true,
-  "projectFilePath": "/home/runner/PracticalProgramming/main.csproj",
+  "projectFilePath": "/home/runner/PracticalProgramming/HelloWorld.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
