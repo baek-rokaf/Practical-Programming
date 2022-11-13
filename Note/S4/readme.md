@@ -106,7 +106,65 @@ Console.WriteLine(APPLE_COUNT+BANANA_COUNT);
     - C#은 불가능
 
 ### 33. 코드보기: 기본 자료형으로 선언한 변수
+[Variables](https://github.com/baek-rokaf/Practical-Programming/blob/main/sample/02/Variables/Program.cs)
+```cs
+using System;
+
+namespace Variables
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int int1 = 2;
+            int int2 = 10;
+
+            float float1 = 10.23f;
+            float float2 = 3.4f;
+
+            double double1 = 11.0; //부동소수점 형의 기본은 더블
+            double double2 = 5.234;
+
+            char char1 = 'x';
+            char char2 = '$';
+
+            Console.WriteLine(int1 + " + " + int2 + " = " + (int1 + int2));
+            Console.WriteLine(int1 + " - " + int2 + " = " + (int1 - int2));
+            Console.WriteLine(float1 + " + " + float2 + " = " + (float1 + float2));
+            Console.WriteLine(double1 + " + " + double2 + " = " + (double1 + double2));
+            Console.WriteLine(char1 + " + " + char2 + " = " + (char1 + char2));
+        }
+    }
+}
+```
+```shell
+2 + 10 = 12
+2 - 10 = -8
+10.23 + 3.4 = 13.629999
+11 + 5.234 = 16.234
+x + $ = 156
+```
+---
 ### 34. 각 자료형마다 비트수가 다른 이유
+- byte 는 8bit이므로 2의 8승 256개의 숫자 표현 가능
+- short는 16bit이므로 2의 16승 65536개의 숫자를 표현 가능
+- 등등 비트수가 많을 수록 표현할 수 있는 데이터가 많아진다.
+
+---
+- 1byte
+  - 00000000  
+  - 256개의 숫자를 표현할 수 있다.
+  - 음수/양수 갯수
+    - 음수 128개
+    - 0 1개
+    - 양수 127개
+      - 127의 표현: 01111111
+  - 음수/양수 표현
+    - 맨 왼쪽의 비트(sign bit):
+      - 0 -> 양수
+      - 1 -> 음수
+---
+
 ### 35. 부호 있는 자료형, 부호 없는 자료형
 ### 36. 자료형을 언제 쓸까?
 ### 37. 코드보기: 기본 자료형의 2진수 표현

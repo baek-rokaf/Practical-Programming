@@ -1,0 +1,15 @@
+/home/runner/PracticalProgramming/sample/02/Variables/bin/Debug/net6.0/Variables
+/home/runner/PracticalProgramming/sample/02/Variables/bin/Debug/net6.0/Variables.deps.json
+/home/runner/PracticalProgramming/sample/02/Variables/bin/Debug/net6.0/Variables.runtimeconfig.json
+/home/runner/PracticalProgramming/sample/02/Variables/bin/Debug/net6.0/Variables.dll
+/home/runner/PracticalProgramming/sample/02/Variables/bin/Debug/net6.0/ref/Variables.dll
+/home/runner/PracticalProgramming/sample/02/Variables/bin/Debug/net6.0/Variables.pdb
+/home/runner/PracticalProgramming/sample/02/Variables/obj/Debug/net6.0/Variables.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/sample/02/Variables/obj/Debug/net6.0/Variables.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/sample/02/Variables/obj/Debug/net6.0/Variables.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/sample/02/Variables/obj/Debug/net6.0/Variables.AssemblyInfo.cs
+/home/runner/PracticalProgramming/sample/02/Variables/obj/Debug/net6.0/Variables.csproj.CoreCompileInputs.cache
+/home/runner/PracticalProgramming/sample/02/Variables/obj/Debug/net6.0/Variables.dll
+/home/runner/PracticalProgramming/sample/02/Variables/obj/Debug/net6.0/ref/Variables.dll
+/home/runner/PracticalProgramming/sample/02/Variables/obj/Debug/net6.0/Variables.pdb
+/home/runner/PracticalProgramming/sample/02/Variables/obj/Debug/net6.0/Variables.genruntimeconfig.cache
