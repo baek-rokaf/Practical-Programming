@@ -164,3 +164,37 @@ namespace DisplayContents
   - 주석이 너무 많으면 가독성을 헤침
   - 꼭 필요한 내용만 주석으로 남기는 것이 좋다
   - 주석보다 git 등의 버전 관리 프로그램으로 기록을 남겨두자
+
+---
+- 상수 출력하기
+```cs
+using System;
+
+namespace DisplayContents
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(30); //int형
+            Console.WriteLine(30.1); //double
+            Console.WriteLine(30.2f);//float
+            Console.Write(true);//bool
+            Console.Write('p');//char
+        }
+    }
+}
+
+```
+  - 출력된 값 전부 상수!
+
+---
+- 상수(Constant)
+  - 변하지 않는 값
+  - 숫자뿐만 아니라 문자까지 포함
+
+---
+- 상수의 별병 - 매직 넘버(Magic Number)
+  - 상수만 덩그러니 쓰여 있으면 무엇을 의미하는 지 알 수 없기 때문에 이러한 별명이 붙었다.
+  - 그러니 매직 넘버는 쓰지 말자
+  - 중복되는 상수는 꼭 변수로 저장해서 관리
