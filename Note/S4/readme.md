@@ -225,5 +225,115 @@ Console.WriteLine(result); // 0이 출력됌
 ---
 
 ### 37. 코드보기: 기본 자료형의 2진수 표현
+[PrimitiveTypesToBinary](https://github.com/baek-rokaf/Practical-Programming/blob/main/sample/02/PrimitiveTypesToBinary/Program.cs)
+
+```cs
+using System;
+
+namespace PrimitiveTypesToBinary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //byte 8bit unsigned
+            byte byte1 = byte.MaxValue; //255_11111111
+            byte byte2 = byte.MinValue; //0_00000000
+            //in 32bit signed
+            int int1 = int.MaxValue; //2147483647
+            int int2 = int.MinValue;//-2147483648
+            
+            long long1 = long.MinValue;
+            long long2 = long.MaxValue;
+
+            char char1 = 'x';
+            char char2 = '$';
+
+            Console.WriteLine(byte1 + " -> " + Convert.ToString(byte1, 2));
+            Console.WriteLine(byte2 + " -> " + Convert.ToString(byte2, 2));
+
+            Console.WriteLine(int1 + " -> " + Convert.ToString(int1, 2));
+            Console.WriteLine(int2 + " -> " + Convert.ToString(int2, 2));
+
+            Console.WriteLine(long1 + " -> " + Convert.ToString(long1, 2));
+            Console.WriteLine(long2 + " -> " + Convert.ToString(long2, 2));
+
+            Console.WriteLine(char1 + " -> " + Convert.ToString(char1, 2));
+            Console.WriteLine(char2 + " -> " + Convert.ToString(char2, 2));
+        }
+    }
+}
+
+```
+
+```shell
+~/.../02/PrimitiveTypesToBinary$ dotnet run
+255 -> 11111111
+0 -> 0
+2147483647 -> 1111111111111111111111111111111
+-2147483648 -> 10000000000000000000000000000000
+-9223372036854775808 -> 1000000000000000000000000000000000000000000000000000000000000000
+9223372036854775807 -> 111111111111111111111111111111111111111111111111111111111111111
+x -> 1111000
+$ -> 100100
+```
+---
+
 ### 38. 상수의 접두사와 접미사
+- 상수 10의 다양한 표현
+```cs
+int intNum = 10; // 10
+int binaryNum = 0b10; //2
+int hexNum = 0x10; //16
+uint uIntNum = 10u; //10
+float floatNum = 10.0f; //10
+double doubleNum = 10.0; //10
+string stringNum = "10" //10
+```
+---
+- 접두사(prefix)와 접미사(postfix)
+  - 상수의 앞이나 뒤에서 꾸미는 기호
+---
+- 상수 접두사
+  - 상수 앞에 붙는 기호로 진법을 나타낸다
+  - 2진수
+    - 0b-/0B-
+  - 16진수
+    - 0x-/0X-
+
+```cs
+int binaryNum = 0b10; //2
+int hexNum = 0x10; //16
+```
+
+---
+- 상수 접미사
+  - 상수 뒤에 붙는 기호로 상수의 형을 나타냄
+  - 부호 여부
+    - -u
+    - ```cs
+      int intNum = 10; // 10
+      uint uIntNum = 10u; //10
+      ```
+  - long
+    - -l
+    - ```cs
+      int num1 = 1l; // compile error
+      long num2 = 10l;
+      long num3 = 10lu; // compile error
+      ulong num4 = 10lu; // 다른 언어들은 lu로 붙이는 경우가 많다.
+      ```
+  - float
+    - -f/-F
+    - ```cs
+      float floatNum = 10.0f; //10
+      float floatNum = 10.0; //compile error!
+      ```
+  - double
+    - 없음 혹은 -d/-D
+      ```cs
+      double doubleNum0 = 10.0; //10
+      double doubleNum1 = 10.0d; //10
+      double doubleNum2 = 10.0D; //10
+      ```
 ### 39. 정리

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/ReasonableNonstopTriggers/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj": {}
+    "/home/runner/PracticalProgramming/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj": {}
   },
   "projects": {
-    "/home/runner/ReasonableNonstopTriggers/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj": {
+    "/home/runner/PracticalProgramming/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/ReasonableNonstopTriggers/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj",
+        "projectUniqueName": "/home/runner/PracticalProgramming/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj",
         "projectName": "PrimitiveTypesToBinary",
-        "projectPath": "/home/runner/ReasonableNonstopTriggers/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj",
+        "projectPath": "/home/runner/PracticalProgramming/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj",
         "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/ReasonableNonstopTriggers/sample/02/PrimitiveTypesToBinary/obj/",
+        "outputPath": "/home/runner/PracticalProgramming/sample/02/PrimitiveTypesToBinary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/runner/.nuget/NuGet/NuGet.Config"

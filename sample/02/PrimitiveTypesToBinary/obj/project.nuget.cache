@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WRbB3sHgg+neyjqRPt2zDNQnMcg5pa74V/bhgH1/VGyuzRYkR8y139M1D3oknmYjHOWiApdv/1nc4241zVoNVw==",
+  "dgSpecHash": "Lw6dqxIaBgZ1buRG1Hu63o7WunO7NBlZrMw0avV4Gm+xF/0VlE+8mtWDmtIKCHuHPQhplHCK0x9zOK0Yxd/qug==",
   "success": true,
-  "projectFilePath": "/home/runner/ReasonableNonstopTriggers/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj",
+  "projectFilePath": "/home/runner/PracticalProgramming/sample/02/PrimitiveTypesToBinary/PrimitiveTypesToBinary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
