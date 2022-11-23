@@ -1,17 +1,17 @@
 using System;
 
-namespace DisplayContents
+namespace LossPrecisionExample
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(30);
-            Console.WriteLine(30.1);
-            Console.WriteLine(30.2f);
-            Console.Write(true);
-            Console.Write('p');
-          
+            int num1 = 1234567890;
+            float num2 = num1;
+            Console.WriteLine(num1 - (int)num2);
         }
+
+
+
     }
 }
