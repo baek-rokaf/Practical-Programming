@@ -1,0 +1,15 @@
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/bin/Debug/net6.0/IncrementAndDecrementOperators
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/bin/Debug/net6.0/IncrementAndDecrementOperators.deps.json
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/bin/Debug/net6.0/IncrementAndDecrementOperators.runtimeconfig.json
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/bin/Debug/net6.0/IncrementAndDecrementOperators.dll
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/bin/Debug/net6.0/ref/IncrementAndDecrementOperators.dll
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/bin/Debug/net6.0/IncrementAndDecrementOperators.pdb
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/obj/Debug/net6.0/IncrementAndDecrementOperators.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/obj/Debug/net6.0/IncrementAndDecrementOperators.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/obj/Debug/net6.0/IncrementAndDecrementOperators.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/obj/Debug/net6.0/IncrementAndDecrementOperators.AssemblyInfo.cs
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/obj/Debug/net6.0/IncrementAndDecrementOperators.csproj.CoreCompileInputs.cache
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/obj/Debug/net6.0/IncrementAndDecrementOperators.dll
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/obj/Debug/net6.0/ref/IncrementAndDecrementOperators.dll
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/obj/Debug/net6.0/IncrementAndDecrementOperators.pdb
+/home/runner/PracticalProgramming/sample/03/IncrementAndDecrementOperators/obj/Debug/net6.0/IncrementAndDecrementOperators.genruntimeconfig.cache

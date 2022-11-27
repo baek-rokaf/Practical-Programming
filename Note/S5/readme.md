@@ -129,25 +129,306 @@ namespace Week03
     ```
 ---
 ### 42. 코드보기: 다양한 형 변환
+[TypeConversion](https://github.com/baek-rokaf/Practical-Programming/blob/main/sample/03/TypeConversion/Program.cs)
+```cs
+using System;
 
+namespace TypeConversion
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char char1 = 'a';
 
+            int int1 = char1;
+            Console.WriteLine("int1: " + int1);
+
+            long long1 = char1;
+            Console.WriteLine("long1: " + long1);
+
+            ulong ulong1 = char1;
+            Console.WriteLine("ulong1: " + ulong1);
+
+            float float1 = char1;
+            Console.WriteLine("float1: " + float1);
+
+            double double1 = char1;
+            Console.WriteLine("double1: " + double1);
+
+            long long2 = long.MaxValue;
+            int long2ToInt = (int)long2;
+
+            Console.WriteLine("long2: " + long2);
+            Console.WriteLine("long2ToInt: " + long2ToInt);
+
+            float float2 = 3.14159f;
+            int float2ToInt = (int)float2;
+
+            Console.WriteLine("float2: " + float2);
+            Console.WriteLine("float2ToInt: " + float2ToInt);
+
+            int int2 = -1;
+            uint int2ToUInt = (uint)int2;
+
+            Console.WriteLine("int2ToUInt: " + int2ToUInt);
+
+        }
+    }
+}
+```
+- cd sample/03/TypeConversion; dotnet run
+```shell
+int1: 97
+long1: 97
+ulong1: 97
+float1: 97
+double1: 97
+long2: 9223372036854775807
+long2ToInt: -1
+float2: 3.14159
+float2ToInt: 3
+int2ToUInt: 4294967295
+```
 
 ---
-### 43. 산술 연산자1
+### 43. 44. 산술 연산자(operator)
 
+- Operator
+  - 연산자는 하나 이상의 피 연산자를 가진다.
+    - 1 + 2의 + 연산자는 1, 2라는 피 연산자를 가짐
+  - 산술 연산자
+  - 증감 연산자
+  - 대입 연산자
+  - 비트 연산자
+  - 비트 이동 연산자
 ---
-### 44. 산술 연산자2
+- \+ 연산자
+  - 두 피연산자(operand)를 더 한다.
+    ```cs
+    int num1 = 10;
+    int num2 = 30;
+    int result = num1 + num2; // 40
+    ```
+- \- 연산자
+  - 두 피연산자(operand)를 뺀다.
+    - 연산의 결과가 음수일 경우 조심해야한다.
+    - 부호 없는 피연산자끼리 빼서 음수가 나오면?
+        - underflow가 발생한다.
+    ```cs
+    int num1 = 10;
+    int num2 = 30;
+    int result1 = num1 - num2; // -20
+    uint result2= (uint)num1 - (uint)num2; // 4294967276(uint maxValue -20)
+    ```
+- \* 연산자
+  - 두 피연산자(operand)를 곱한다.
+    ```cs
+    int num1 = 10;
+    int num2 = 30;
+    int result = num1 * num2; // 300
+    ```
+- / 연산자
+  - 두 피연산자(operand)를 나눈다.(몫을 구한다.)
+    - 정수형의 피연산자의 경우 결과가 제대로 나오지 않을 수 있다.
+    ```cs
+    int num1 = 10;
+    int num2 = 30;
+    int result1 = num1 / num2; // 0
+    double result2 = num1 / num2; // 0 (int끼리의 연산 이후에 implict하게 double로 대입하므로 0이다.)
+    double result3 = (double)num1 / (double)num2; // 0.333333333331 분모 분자 둘 중 하나에만 명시적 형변환을 해도 된다. 분모에 하는 것이 일반적.
+    ```
+- \% 연산자
+  - 두 피연산자(operand)의 나눗셈의 나머지를 구한다.
+    ```cs
+    int num1 = 10;
+    int num2 = 30;
+    int result = num1 % num2; // 10
+    ```
 
 ---
 ### 45. 코드보기: 계산기
+[Calculator](https://github.com/baek-rokaf/Practical-Programming/blob/main/sample/03/Calculator/Program.cs)
 
----
-### 46. 증가/감소 연산자1
+- cd sample/03/Calculator
+```cs
+﻿using System;
 
+namespace Calculator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1 = 10;
+            int num2 = 11;
+
+            int result1 = num1 + num2;//21
+            int result2 = num1 - num2;//-1
+
+            Console.WriteLine("result1: " + result1);
+            Console.WriteLine("result2: " + result2);
+
+            uint result3 = (uint)num1 - (uint)num2;// uint maxvalue -1 4294967295
+
+            Console.WriteLine("result3: " + result3);
+
+            int num3 = int.MaxValue;
+            int result4 = num3 + 1; //overflow -2147483648
+
+            Console.WriteLine("result4: " + result4);
+
+            float num4 = 2.3f;
+
+            float result5 = num1 + num4; //12.3
+            float result6 = num4 - num1; //-7.7
+
+            Console.WriteLine("result5: " + result5);
+            Console.WriteLine("result6: " + result6);
+
+            float result7 = num2 * num4; //25.3
+
+            Console.WriteLine("result7: " + result7);
+
+            float result8 = num2 / num1; //1
+            float result9 = num2 / (float)num1; //1.1
+
+            Console.WriteLine("result8: " + result8);
+            Console.WriteLine("result9: " + result9);
+
+            int result10 = num1 % num2; //10
+            int result11 = num2 % num1; //1
+
+            Console.WriteLine("result10: " + result10);
+            Console.WriteLine("result11: " + result11);
+        }
+    }
+}
+
+```
+```shell
+result1: 21
+result2: -1
+result3: 4294967295
+result4: -2147483648
+result5: 12.3
+result6: -7.7
+result7: 25.3
+result8: 1
+result9: 1.1
+result10: 10
+result11: 1
+```
 ---
-### 47. 증가/감소 연산자2
+### 46. 47. 증가/감소 연산자1
+
+- \++ 연산자
+  - 피연산자의 하나의 값을 1 증가
+  - 연산기호를 변수의 앞이나 뒤에 붙일 수 있음
+  - 하드웨어 친화적
+  ```cs
+  int num1 = 10;
+  num1++; //  후위(postfix)
+  ++num1; //  전위(prefix)
+  ```
+- 전위(prefix)
+  ```cs
+  int num1 = 10;
+  int result1 = ++num1; //  전위(prefix) 11 더하고 대입함
+  int result2 = num1; //11
+  ```
+- 후위(postfix)
+  ```cs
+  int num1 = 10;
+  int result1 = num1;++ //  후위(postfix) 10 대입하고 더함
+  int result2 = num1; //11
+  ```
+
+- \++연산자 예제
+``` cs
+int num = 10;
+char ch = 'b'; // 0x62 = 8*16^1 + 2*16^0 = 98
+++num; //11
+++ch; // c(0x63)
+```
+- \-- 연산자
+  - 피연산자의 하나의 값을 1 감소
+  - 연산기호를 변수의 앞이나 뒤에 붙일 수 있음
+  - 하드웨어 친화적
+  ```cs
+  int num1 = 10;
+  num1--; //  후위(postfix)
+  --num1; //  전위(prefix)
+  ```
+---
+- 증감연산자는 정수형(char int long)에 사용하는 것이 일반적이다. 부동소수점형은 연속적인 숫자를 표상하기 때문에 1을 더할 때 항상 정수 1을 의미하는 것이 아니라 0.1, 0.01을 의미할 수도 있다. 언어마다 지정하는 바가 있겠지만, 부동 소수점형에 증감연산자를 사용하는 경우은 거의 드물다.
 
 ---
 ### 48. 코드보기: 증감 연산자
+[IncrementAndDecrementOperators](https://github.com/baek-rokaf/Practical-Programming/blob/main/sample/03/IncrementAndDecrementOperators/Program.cs)
 
+-cd sample/03/IncrementAndDecrementOperators
+```cs
+﻿using System;
 
+namespace IncrementAndDecrementOperators
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1 = 0;
+            int num2 = 10;
+
+            int result1 = num1++ + num2; // 10
+
+            Console.WriteLine("num1: " + num1); // 1
+            Console.WriteLine("num2: " + num2); // 10
+            Console.WriteLine("result1: " + result1); //10
+
+            num1 = 0;
+            num2 = 10;
+
+            int result2 = ++num1 + num2++; //1 + 10= 11
+
+            Console.WriteLine("num1: " + num1); //1
+            Console.WriteLine("num2: " + num2); //11
+            Console.WriteLine("result2: " + result2); //11
+
+            num1 = 0;
+            num2 = 10;
+
+            int result3 = num1-- + num1-- - --num2; //0 + -1 - 9 = -10
+
+            Console.WriteLine("num1: " + num1); // -2
+            Console.WriteLine("num2: " + num2); // 9
+            Console.WriteLine("result3: " + result3); //-10
+
+            num1 = 0;
+            num2 = 10;
+
+            int result4 = num2++ * num1++ - --num2 + num1; //10*0 - (11-1) + 1 = -9
+
+            Console.WriteLine("num1: " + num1); //1
+            Console.WriteLine("num2: " + num2); //10
+            Console.WriteLine("result4: " + result4); //-9
+        }
+    }
+}
+
+```
+
+```shell
+num1: 1
+num2: 10
+result1: 10
+num1: 1
+num2: 11
+result2: 11
+num1: -2
+num2: 9
+result3: -10
+num1: 1
+num2: 10
+result4: -9
+```

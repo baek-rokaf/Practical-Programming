@@ -24,7 +24,7 @@ namespace TypeConversion
             Console.WriteLine("double1: " + double1);
 
             long long2 = long.MaxValue;
-            int long2ToInt = (int)long2;
+            int long2ToInt = (int)long2; //explict type casing
 
             Console.WriteLine("long2: " + long2);
             Console.WriteLine("long2ToInt: " + long2ToInt);

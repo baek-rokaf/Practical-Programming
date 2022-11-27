@@ -1,0 +1,15 @@
+/home/runner/PracticalProgramming/sample/03/TypeConversion/bin/Debug/net6.0/TypeConversion
+/home/runner/PracticalProgramming/sample/03/TypeConversion/bin/Debug/net6.0/TypeConversion.deps.json
+/home/runner/PracticalProgramming/sample/03/TypeConversion/bin/Debug/net6.0/TypeConversion.runtimeconfig.json
+/home/runner/PracticalProgramming/sample/03/TypeConversion/bin/Debug/net6.0/TypeConversion.dll
+/home/runner/PracticalProgramming/sample/03/TypeConversion/bin/Debug/net6.0/ref/TypeConversion.dll
+/home/runner/PracticalProgramming/sample/03/TypeConversion/bin/Debug/net6.0/TypeConversion.pdb
+/home/runner/PracticalProgramming/sample/03/TypeConversion/obj/Debug/net6.0/TypeConversion.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/sample/03/TypeConversion/obj/Debug/net6.0/TypeConversion.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/sample/03/TypeConversion/obj/Debug/net6.0/TypeConversion.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/sample/03/TypeConversion/obj/Debug/net6.0/TypeConversion.AssemblyInfo.cs
+/home/runner/PracticalProgramming/sample/03/TypeConversion/obj/Debug/net6.0/TypeConversion.csproj.CoreCompileInputs.cache
+/home/runner/PracticalProgramming/sample/03/TypeConversion/obj/Debug/net6.0/TypeConversion.dll
+/home/runner/PracticalProgramming/sample/03/TypeConversion/obj/Debug/net6.0/ref/TypeConversion.dll
+/home/runner/PracticalProgramming/sample/03/TypeConversion/obj/Debug/net6.0/TypeConversion.pdb
+/home/runner/PracticalProgramming/sample/03/TypeConversion/obj/Debug/net6.0/TypeConversion.genruntimeconfig.cache
