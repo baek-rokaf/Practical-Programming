@@ -86,9 +86,51 @@ namespace LossPrecisionExample
     - 값이 충분히 작을 때 큰 -> 작은 형변환 컴파일 오류 해결방법 => 명시적 형 변환을 사용하자 
 ---
 ### 41. 명시적 변환
+- 두 double 형 수를 더하기
+```cs
+  using System;
 
+namespace Week03
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double num1 = 10.9;
+            double num2 = 52.16;
+            Console.WriteLine("일반 덧셈 결과: " + (num1 + num2));
+
+            int result = (int)num1 + (int)num2;
+            Console.WriteLine("명시적 형변환 덧셈 결과: " + result);
+            //일반 덧셈 결과: 63.059999999999995
+            // 명시적 형변환 덧셈 결과: 62 -> 버림
+        }
+
+
+
+    }
+}
+
+```
 ---
-### 42. 명시적 변환
+- 명시적 형변환
+  - 소괄호()를 이용하여 변하고자 하는 자료형을 보여줌
+    ```cs
+    long num1 = 9223372036854775807; //64bit
+    int num2 = (int)num1; // -1 overflow 32bit
+
+    double num3 = 10.9;
+    int num4 = (int)num3; //10
+    ```
+  - 모든 자료형들이 변환되는 것은 아님
+    ```cs
+    long num1 = 9223372036854775807;
+    bool bBool = (bool)num1; // 컴파일 오류
+    ```
+---
+### 42. 코드보기: 다양한 형 변환
+
+
 
 ---
 ### 43. 산술 연산자1
