@@ -1,0 +1,15 @@
+/home/runner/PracticalProgramming/sample/03/BitFlag/bin/Debug/net6.0/BitFlag
+/home/runner/PracticalProgramming/sample/03/BitFlag/bin/Debug/net6.0/BitFlag.deps.json
+/home/runner/PracticalProgramming/sample/03/BitFlag/bin/Debug/net6.0/BitFlag.runtimeconfig.json
+/home/runner/PracticalProgramming/sample/03/BitFlag/bin/Debug/net6.0/BitFlag.dll
+/home/runner/PracticalProgramming/sample/03/BitFlag/bin/Debug/net6.0/ref/BitFlag.dll
+/home/runner/PracticalProgramming/sample/03/BitFlag/bin/Debug/net6.0/BitFlag.pdb
+/home/runner/PracticalProgramming/sample/03/BitFlag/obj/Debug/net6.0/BitFlag.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/sample/03/BitFlag/obj/Debug/net6.0/BitFlag.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/sample/03/BitFlag/obj/Debug/net6.0/BitFlag.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/sample/03/BitFlag/obj/Debug/net6.0/BitFlag.AssemblyInfo.cs
+/home/runner/PracticalProgramming/sample/03/BitFlag/obj/Debug/net6.0/BitFlag.csproj.CoreCompileInputs.cache
+/home/runner/PracticalProgramming/sample/03/BitFlag/obj/Debug/net6.0/BitFlag.dll
+/home/runner/PracticalProgramming/sample/03/BitFlag/obj/Debug/net6.0/ref/BitFlag.dll
+/home/runner/PracticalProgramming/sample/03/BitFlag/obj/Debug/net6.0/BitFlag.pdb
+/home/runner/PracticalProgramming/sample/03/BitFlag/obj/Debug/net6.0/BitFlag.genruntimeconfig.cache
