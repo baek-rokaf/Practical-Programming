@@ -1,0 +1,15 @@
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/bin/Debug/net6.0/StringInterpolation
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/bin/Debug/net6.0/StringInterpolation.deps.json
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/bin/Debug/net6.0/StringInterpolation.runtimeconfig.json
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/bin/Debug/net6.0/StringInterpolation.dll
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/bin/Debug/net6.0/ref/StringInterpolation.dll
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/bin/Debug/net6.0/StringInterpolation.pdb
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/obj/Debug/net6.0/StringInterpolation.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/obj/Debug/net6.0/StringInterpolation.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/obj/Debug/net6.0/StringInterpolation.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/obj/Debug/net6.0/StringInterpolation.AssemblyInfo.cs
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/obj/Debug/net6.0/StringInterpolation.csproj.CoreCompileInputs.cache
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/obj/Debug/net6.0/StringInterpolation.dll
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/obj/Debug/net6.0/ref/StringInterpolation.dll
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/obj/Debug/net6.0/StringInterpolation.pdb
+/home/runner/PracticalProgramming/sample/03/StringInterpolation/obj/Debug/net6.0/StringInterpolation.genruntimeconfig.cache

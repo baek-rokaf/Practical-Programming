@@ -6,17 +6,13 @@ namespace Prac
     {
         static void Main(string[] args)
         {
-            string name1 = "junho";
-            float winRate1 = 30.23f;
-
-            string name2 = "junho2";
-            float winRate2 = 70.23f;
-
-
-
-            Console.WriteLine("{0}    {1}", "Name", "Win Rate");
-            Console.WriteLine("{0}    {1}", name1, winRate1);
-            Console.WriteLine("{0}    {1}", name2, winRate2);
+            Console.Write("Enter the first number: ");
+            string numStr1 = Console.ReadLine();
+            int num1 = int.Parse(numStr1);
+            Console.Write("Enter the second number: ");
+            string numStr2 = Console.ReadLine();
+            int num2 = int.Parse(numStr2);
+            Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
         }
     }
 }

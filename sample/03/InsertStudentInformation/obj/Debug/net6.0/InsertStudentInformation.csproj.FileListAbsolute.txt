@@ -1,0 +1,15 @@
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/bin/Debug/net6.0/InsertStudentInformation
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/bin/Debug/net6.0/InsertStudentInformation.deps.json
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/bin/Debug/net6.0/InsertStudentInformation.runtimeconfig.json
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/bin/Debug/net6.0/InsertStudentInformation.dll
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/bin/Debug/net6.0/ref/InsertStudentInformation.dll
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/bin/Debug/net6.0/InsertStudentInformation.pdb
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/obj/Debug/net6.0/InsertStudentInformation.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/obj/Debug/net6.0/InsertStudentInformation.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/obj/Debug/net6.0/InsertStudentInformation.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/obj/Debug/net6.0/InsertStudentInformation.AssemblyInfo.cs
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/obj/Debug/net6.0/InsertStudentInformation.csproj.CoreCompileInputs.cache
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/obj/Debug/net6.0/InsertStudentInformation.dll
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/obj/Debug/net6.0/ref/InsertStudentInformation.dll
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/obj/Debug/net6.0/InsertStudentInformation.pdb
+/home/runner/PracticalProgramming/sample/03/InsertStudentInformation/obj/Debug/net6.0/InsertStudentInformation.genruntimeconfig.cache
