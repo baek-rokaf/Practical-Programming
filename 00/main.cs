@@ -5,22 +5,37 @@ namespace Prac
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.Write("Enter the first number: ");
-            string numStr1 = Console.ReadLine();
-            int num1 = int.Parse(numStr1);
-
-            Console.Write("Enter the second number: ");
-            string numStr2 = Console.ReadLine();
-            int num2 = int.Parse(numStr1);
-
-            Console.Write("Enter an operator:");
-            string op = Console.ReadLine();
-
-            if (op == "+")
+          {
+            Console.WriteLine("Please select a menu");
+            Console.Writeline("1. Cheese barger");
+            Console.WriteLine("2. Double cheese burger");
+            Console.WriteLine("3. Veggie burger");
+            Console.WriteLine("4. Cheese & mushroom burger");
+            int menu = int.Parse(Console.ReadLine());
+            switch(menu)
             {
-                Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+              case 1:
+              Console.WriteLine("You selected a cheese burger");
+              Console.Writeline("Price: $3");
+              break;
+              case 2:
+              Console.WriteLine("You selected a double cheese burger");
+              Console.Writeline("Price: $4.50") :
+              break;
+              case 3:
+              Console.WriteLine("You selected a veggie burger");
+              Console.Writeline("Price: $4");
+              break;
+              case 4:
+              Console.WriteLine("You selected a mushroom burger*);
+              Console.Writeline("Price: $5");
+              break;
+              default:
+              Console.Writeline("Please enter a correct number(1~4) "):
+              break;
             }
+          }
         }
-    }
+      }
+  }
 }
