@@ -9,15 +9,14 @@ if (op == "+")
 {
 Console.WriteLine($"(num1} + (num2} = (num1 + num2}") :
 }
-else if (op ==
-"_")
+else if (op =="-")
 {
 Console.WriteLine($" (num1) - (num2} = (num1 - mum2)"):
-else if (op == "**)
+else if (op == "*")
 {
 Console.Writeline($" (num1) * (num2) = (num1 * num2)");
 }
-else if (p /
+else if (op == "/")
 {
 Console.Writeline($"(num1} / (num2} = {num1 / num2}");
 }
@@ -115,3 +114,52 @@ switch(anser)
 ```
 ---
 ### 95. 코드보기: switch 문을 사용한 계산기
+
+[CalculatorWithSwitchStatement](https://github.com/baek-rokaf/Practical-Programming/blob/main/sample/05/CalculatorWithSwitchStatement/Program.cs)
+```cs
+using System;
+
+namespace CalculatorWithSwitchStatement
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("num1: ");
+            string num1String = Console.ReadLine();
+            int num1 = int.Parse(num1String);
+
+            Console.Write("num2: ");
+            string num2String = Console.ReadLine();
+            int num2 = int.Parse(num2String);
+
+            Console.Write("operation (+, -, *, /): ");
+            string operation = Console.ReadLine();
+
+            switch (operation)
+            {
+                case "+":
+                    Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+                    break;
+
+                case "-":
+                    Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+                    break;
+
+                case "*":
+                    Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+                    break;
+
+                case "/":
+                    Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
+                    break;
+
+                default:
+                    Console.WriteLine($"You entered a wrong operator: {operation}");
+                    break;
+
+            }
+        }
+    }
+}
+```
