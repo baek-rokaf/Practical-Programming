@@ -1,0 +1,15 @@
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/bin/Debug/net6.0/InfiniteWhileLoop
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/bin/Debug/net6.0/InfiniteWhileLoop.deps.json
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/bin/Debug/net6.0/InfiniteWhileLoop.runtimeconfig.json
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/bin/Debug/net6.0/InfiniteWhileLoop.dll
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/bin/Debug/net6.0/ref/InfiniteWhileLoop.dll
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/bin/Debug/net6.0/InfiniteWhileLoop.pdb
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/obj/Debug/net6.0/InfiniteWhileLoop.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/obj/Debug/net6.0/InfiniteWhileLoop.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/obj/Debug/net6.0/InfiniteWhileLoop.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/obj/Debug/net6.0/InfiniteWhileLoop.AssemblyInfo.cs
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/obj/Debug/net6.0/InfiniteWhileLoop.csproj.CoreCompileInputs.cache
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/obj/Debug/net6.0/InfiniteWhileLoop.dll
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/obj/Debug/net6.0/ref/InfiniteWhileLoop.dll
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/obj/Debug/net6.0/InfiniteWhileLoop.pdb
+/home/runner/PracticalProgramming/sample/05/InfiniteWhileLoop/obj/Debug/net6.0/InfiniteWhileLoop.genruntimeconfig.cache

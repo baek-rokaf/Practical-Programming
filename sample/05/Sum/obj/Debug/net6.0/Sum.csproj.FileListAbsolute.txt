@@ -1,0 +1,15 @@
+/home/runner/PracticalProgramming/sample/05/Sum/bin/Debug/net6.0/Sum
+/home/runner/PracticalProgramming/sample/05/Sum/bin/Debug/net6.0/Sum.deps.json
+/home/runner/PracticalProgramming/sample/05/Sum/bin/Debug/net6.0/Sum.runtimeconfig.json
+/home/runner/PracticalProgramming/sample/05/Sum/bin/Debug/net6.0/Sum.dll
+/home/runner/PracticalProgramming/sample/05/Sum/bin/Debug/net6.0/ref/Sum.dll
+/home/runner/PracticalProgramming/sample/05/Sum/bin/Debug/net6.0/Sum.pdb
+/home/runner/PracticalProgramming/sample/05/Sum/obj/Debug/net6.0/Sum.csproj.AssemblyReference.cache
+/home/runner/PracticalProgramming/sample/05/Sum/obj/Debug/net6.0/Sum.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/PracticalProgramming/sample/05/Sum/obj/Debug/net6.0/Sum.AssemblyInfoInputs.cache
+/home/runner/PracticalProgramming/sample/05/Sum/obj/Debug/net6.0/Sum.AssemblyInfo.cs
+/home/runner/PracticalProgramming/sample/05/Sum/obj/Debug/net6.0/Sum.csproj.CoreCompileInputs.cache
+/home/runner/PracticalProgramming/sample/05/Sum/obj/Debug/net6.0/Sum.dll
+/home/runner/PracticalProgramming/sample/05/Sum/obj/Debug/net6.0/ref/Sum.dll
+/home/runner/PracticalProgramming/sample/05/Sum/obj/Debug/net6.0/Sum.pdb
+/home/runner/PracticalProgramming/sample/05/Sum/obj/Debug/net6.0/Sum.genruntimeconfig.cache
