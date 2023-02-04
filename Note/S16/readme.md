@@ -306,6 +306,55 @@ class Program
     - 성능상의 문제가 발견되었을 때
 ---
 ### 146. 코드보기: 재귀 팩토리얼
+[RecursiveFactorial](https://github.com/baek-rokaf/Practical-Programming/blob/main/sample/07/RecursiveFactorial/Program.cs)
+```cs
+using System;
+
+namespace RecursiveFactorial
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const ulong FACTORIAL = 10;
+
+            Console.WriteLine("NonRecursiveFactorial:");
+            Console.WriteLine(NonRecursiveFactorial(FACTORIAL));
+
+            Console.WriteLine("RecursiveFactorial:");
+            Console.WriteLine(RecursiveFactorial(FACTORIAL));
+        }
+
+        static ulong NonRecursiveFactorial(ulong n)
+        {
+            if (n <= 1)
+            {
+                return 1;
+            }
+
+            uint factorial = 1;
+
+            for (uint i = 2; i <= n; i++)
+            {
+                factorial *= i;
+            }
+
+            return factorial;
+        }
+
+        static ulong RecursiveFactorial(ulong n)
+        {
+            if (n == 0)
+            {
+                return 1;
+            }
+
+            return RecursiveFactorial(n - 1) * n;
+        }
+    }
+}
+
+```
 ---
 ### 147. 주사위 굴리기
 ---
