@@ -357,6 +357,35 @@ namespace RecursiveFactorial
 ```
 ---
 ### 147. 주사위 굴리기
+- 언제나 정해진 게임.
+```cs
+enum EShape
+{
+  Rock,
+  Paper,
+  Sissor
+};
+
+static void Main(string[] args)
+{
+  EShape computer = EShape.Paper;
+
+  while(true)
+  {
+    Console.Write("Rock(0) ~ Paper(1) ~ Scissor(2)~: ");
+    EShape user = (EShape)int.Parse(Console.ReadLine());
+
+    if(computer == user)
+    {
+      Console.WriteLine("Draw");
+    }
+    else if((computer == EShape.Rock && user == EShape.Scissor)||(computer == EShape.Paper && user == EShape.Rock)||(computer == EShape.Scissor && user == EShape.Paper))
+    {
+      Console.WriteLine("Lose");
+    }
+  }
+}
+```
 ---
 ### 148. 랜덤 수 생성(random number generation) 1
 ---
