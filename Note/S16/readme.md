@@ -358,6 +358,7 @@ namespace RecursiveFactorial
 ---
 ### 147. 주사위 굴리기
 - 언제나 정해진 게임.
+  - 랜덤 수 생성이 필요한 이유..
 ```cs
 enum EShape
 {
@@ -379,21 +380,180 @@ static void Main(string[] args)
     {
       Console.WriteLine("Draw");
     }
-    else if((computer == EShape.Rock && user == EShape.Scissor)||(computer == EShape.Paper && user == EShape.Rock)||(computer == EShape.Scissor && user == EShape.Paper))
+    else if((computer == EShape.Rock && user == EShape.Scissor)
+    ||(computer == EShape.Paper && user == EShape.Rock)
+    ||(computer == EShape.Scissor && user == EShape.Paper))
     {
       Console.WriteLine("Lose");
+    }
+    else if((user == EShape.Rock && computer == EShape.Scissor)
+    ||(user == EShape.Paper && computer == EShape.Rock)
+    ||(user == EShape.Scissor && computer == EShape.Paper))
+    {
+      Console.WriteLine("Win");
+    }
+    else
+    {
+      Console.WriteLine("Wrong input!);
     }
   }
 }
 ```
 ---
 ### 148. 랜덤 수 생성(random number generation) 1
+- 난수생성이라고도 한다.
+- 언제나 예측 가능했던(deterministic) 컴퓨터 세상을 바꾼 방식
+- 이 덕에 게임이 나올 수 있었다.
+- 거의 모든 프로그래밍 언어에 존재하는 개념이다.
+
+
+
+---
+- 거의 제대로 된 게임
+```cs
+enum EShape
+{
+  Rock,
+  Paper,
+  Sissor
+};
+
+static void Main(string[] args)
+{
+  
+
+  while(true)
+  {
+    Random random = new Random();
+    EShape computer = (EShape)random.Next(3);
+    Console.Write("Rock(0) ~ Paper(1) ~ Scissor(2)~: ");
+    EShape user = (EShape)int.Parse(Console.ReadLine());
+
+    if(computer == user)
+    {
+      Console.WriteLine("Draw");
+    }
+    else if((computer == EShape.Rock && user == EShape.Scissor)
+    ||(computer == EShape.Paper && user == EShape.Rock)
+    ||(computer == EShape.Scissor && user == EShape.Paper))
+    {
+      Console.WriteLine("Lose");
+    }
+    else if((user == EShape.Rock && computer == EShape.Scissor)
+    ||(user == EShape.Paper && computer == EShape.Rock)
+    ||(user == EShape.Scissor && computer == EShape.Paper))
+    {
+      Console.WriteLine("Win");
+    }
+    else
+    {
+      Console.WriteLine("Wrong input!);
+    }
+  }
+}
+```
+
+---
+- Random 클래스와 개체 생성
+    ```cs
+    Random random = new Random();
+    ```
+  - '랜덤 생성기를 만들어 random이라는 변수에 대입한다'
+  - random은 변수명이므로 다른 단어를 써도 된다.
+  - 클래스와 개체의 간단한 설명
+    - 클래스: '여러 개의 함수가 뭉쳐있는 집합'
+    - 개체: '클래스 안에 있는 함수를 사용하려면 필요한 것'
+
+---
+- 난수 생성하기
+```cs
+Random random = new Random();
+int number1 = random.Next(3); // 0이상 3 미만의 수 중 하나를 무작위로 뽑아줌
+int number2 = random.Next(1,10); // 최솟값 1 이상 최댓값 3 '미만'의 값 중 하나를 무작위로 뽑아줌
+```
 ---
 ### 149. 랜덤 수 생성 2
+- 의사 랜덤(pseudo random) // pseudo (가짜의, 모조의, 의사의)
+  - 대부분 언어에서 지원하는 랜덤은 진정한 랜덤이 아니다.
+  - 시드(seed) 값을 초기 입력값으로 하여 알고리듬을 통해 "난수"를 만들어 내는 함수
+  - 그 결과는 다시 랜덤의 입력값이 됨
+  - 이 말은 시드 값이 같으면 언제나 생성된 난수의 순서가 동일하다는 말이다.
+
+```cs
+Random random = new Random(0);
+  while(true)
+  { 
+    EShape computer = (EShape)random.Next(3);
+  }
+```
+- 위의 코드의 경우 시드가 0이기 때문에 매번 프로그램을 재실행할 때마다 while문 안에 있는 Next() 함수가 같은 난수를 반환하게 된다. 0 2 2 3 2 2 // 0 2 2 3 2 2
+
+```cs
+
+  while(true)
+  { 
+    Random random = new Random(0);
+    EShape computer = (EShape)random.Next(3);
+  }
+```
+- 위의 코드의 경우 시드가 0일 때 나오는 첫 랜덤 값이 계속 나오게 된다. random은 while문에서만 사용하는 지역 변수로 while문 한바퀴 돌 때마다 새로 생성된다.
 ---
 ### 150. 랜덤 수 생성 3
+- 의사 랜덤(pseudo random)
+  - 여러 알고리듬이 존재한다.
+  - 대부분의 알고리듬은 완벽하게 랜덤이 아니다.
+    - 알고리듬의 효율성은 난수의 분포로 결정한다.
+  - 완벽한 난수 생성기를 만드는 것은 꿈같은 이야기이다, 전용 하드웨어도 이미 나왔다.
+
+- new Random()은 괜찮았던 이유
+  - 시드값이 안정해져있다.
+  - 컴퓨터가 디폴트로 컴퓨터에 달린 시계를 시드값으로 이용한다.
+  - new Random()도 내부적으로 그렇다
+  - 이 작업을 해주지 않는 언어에서는 직접 시간을 읽어서 시드값으로 넣어준다. // 시간은 계속 바뀌기 때문에 랜덤에 가깝게 사용할 수 있다.
+
+---
+- 고정된 시드값은 효용성이 없나?
+  - 시드값을 고정시키면 좋은 경우가 있다.
+  - 랜덤 수에 기초한 프로그램 로직에서 문제가 발생한 경우
+    - 똑같은 시드값을 넣고 개발자 기계에서 실행하면 그대로 문제를 재현할 수 있다.
+  - 네트워크로 연결된 두 사용자가 게임을 할 때,
+    - 동일한 시드값을 각 컴퓨터에 넣어주고 난수를 동일한 횟수만큼 생성한다
+    - 그러면 난수에 의해 바뀌는 게임 속 로직도 두 컴퓨터에서 동일하게 작용한다.
 ---
 ### 151. 코드보기: 숫자 섞기
+[RandomShuffling](https://github.com/baek-rokaf/Practical-Programming/blob/main/sample/07/RandomShuffling/Program.cs)
+```cs
+using System;
+
+namespace RandomShuffling
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const int SEED = 0;
+            int[] numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+
+            Console.WriteLine("Before shuffling:");
+            Console.WriteLine($"[{string.Join(", ", numbers)}]");
+
+            Random random = new Random(SEED);
+
+            for (int i = numbers.Length - 1; i > 0; i--)
+            {
+                int j = random.Next(0, i);
+                int temp = numbers[j];
+                numbers[j] = numbers[i];
+                numbers[i] = temp;
+            }
+
+            Console.WriteLine("After shuffling:");
+            Console.WriteLine($"[{string.Join(", ", numbers)}]");
+        }
+    }
+}
+
+```
 ---
 ### 152. 정리
 ---
